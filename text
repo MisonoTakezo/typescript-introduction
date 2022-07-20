@@ -1,13 +1,3 @@
-import type { NextPage } from "next";
-
-function double(x: number): number {
-  return x * 2;
-}
-const Home: NextPage = () => {
-  return <div>a</div>;
-};
-export default Home;
-
 // 型推論　タイプインファレンス 勝手に型を推測してくれる
 // 型注釈 タイプアノテーション プログラマーが型をつける
 // ドキュメント的な役割を果たす
